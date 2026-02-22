@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auth</title>
+    <link rel="stylesheet" href="styleLogin.css" />
+  </head>
+  <body>
+    <div class="auth-container">
+      <div id="auth-status" class="status-message"></div>
+      <form id="login-form" class="auth-form active">
+        <h2>LOGIN_</h2>
+
+        <div class="input-group">
+          <label for="login-email">Email</label>
+          <input type="email" id="login-email" required />
+        </div>
+
+        <div class="input-group">
+          <label for="login-password">Password</label>
+          <input type="password" id="login-password" required />
+        </div>
+
+        <button type="submit">ENTER</button>
+
+        <p class="toggle-link">
+          New here? <span id="go-register">Create an account</span>
+        </p>
+      </form>
+
+      <form id="register-form" class="auth-form">
+        <h2>REGISTER_</h2>
+
+        <div class="input-group">
+          <label for="reg-email">Email</label>
+          <input type="email" id="reg-email" required />
+        </div>
+
+        <div class="input-group">
+          <label for="reg-password">Password</label>
+          <input type="password" id="reg-password" required />
+        </div>
+
+        <div class="input-group">
+          <label for="reg-confirm">Confirm Password</label>
+          <input type="password" id="reg-confirm" required />
+        </div>
+
+        <button type="submit">JOIN</button>
+
+        <p class="toggle-link">
+          Already a member? <span id="go-login">Log in</span>
+        </p>
+      </form>
+    </div>
+
+    <script type="module" src="./js/login.js"></script>
+  </body>
+</html>
