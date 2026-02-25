@@ -6,7 +6,7 @@ A full stack todo app with authentication.
 - Node.js + Express
 - PostgreSQL + Prisma
 - JWT Authentication
-- Vanilla HTML/CSS/JS
+- React + vite
 
 ## Features
 - Register and login
@@ -31,5 +31,6 @@ JWT_SECRET=your_secret
 
 ##dashboard
 <img width="1058" height="964" alt="Screenshot 2026-02-23 033557" src="https://github.com/user-attachments/assets/7f78374b-d148-415e-82bb-020b55e75c33" />
+
 
 
